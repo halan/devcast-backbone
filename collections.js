@@ -14,5 +14,3 @@ App.Collections.Tweets = Backbone.Collection.extend({
     Backbone.Collection.prototype.fetch.call(this, options);
   }
 });
-
-

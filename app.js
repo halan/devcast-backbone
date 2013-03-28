@@ -5,7 +5,6 @@ App = new (Backbone.View.extend({
   start: function(rootEl, options){
     this.initializeTweets(options);
     this.render(rootEl)
-    this.updateTweets();
   },
 
   initializeTweets: function(options){
@@ -22,10 +21,6 @@ App = new (Backbone.View.extend({
     this.tweetViews = new App.Views.TweetViews({collection: this.tweets});
     this.tweetViews.render().$el.appendTo(this.el);
   },
-
-  updateTweets: function(){
-    this.tweets.fetch();
-  }
 }))();
 
 
