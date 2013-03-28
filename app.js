@@ -23,4 +23,7 @@ App = new (Backbone.View.extend({
   },
 }))();
 
-
+jQuery.fn.twitterList = function(options){
+  App.start(this, options);
+  return this;
+};
