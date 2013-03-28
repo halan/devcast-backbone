@@ -1,0 +1,29 @@
+#app {
+    width:  50%;
+    margin: 10px auto;
+    font: 16px/24px Arial;
+    color: rgba(0, 0, 0, 0.5);
+}
+#app .tweets > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#app .tweet {
+    background-color: rgba(0, 0, 0, .1);
+    padding: 1em;
+    margin: 0.3em;
+    padding-left: 90px;
+    position: relative;
+    border-radius: 0 10px 10px 0;
+    border-left: 4px solid;
+    margin-left: -2px;
+}
+#app .tweet img {
+    background: white;
+    position: absolute;
+    left: 20px;
+    top:  50%;
+    margin-top: -24px;
+    border: 1px solid;
+}
